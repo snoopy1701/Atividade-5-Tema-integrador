@@ -5,7 +5,7 @@ int main(void) {
   int num, m, c, d, u, reverso, continua;
 
   do {
-    printf("digite um numero de quatro digitos maior que zero: ");
+    printf("digite um numero de até quatro digitos maior que zero: ");
     scanf("%d", &num);
     if (num >= 1000 && num <= 9999) {
       m = num / 1000;
